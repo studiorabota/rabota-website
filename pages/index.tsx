@@ -49,6 +49,42 @@ export default function Home() {
             <span className={styles.cardDescription}>Download & Print</span>
           </div>
         </a>
+        <div className={styles.soldering}>
+          <div className={styles.smokeWrap}>
+            <Image
+              src="/images/smoke.png"
+              width={112}
+              height={2232}
+              alt="Picture of smoke from soldering iron"
+              className={styles.smoke}
+            />
+          </div>
+          <div className={styles.smokeWrap}>
+            <Image
+              src="/images/smoke.png"
+              width={112}
+              height={2232}
+              alt="Another picture of smoke from soldering iron"
+              className={styles.smoke}
+            />
+          </div>
+          <div className={styles.smokeWrap}>
+            <Image
+              src="/images/smoke.png"
+              width={112}
+              height={2232}
+              alt="One more picture of smoke from soldering iron"
+              className={styles.smoke3}
+            />
+          </div>
+          <Image
+            src="/images/solderingIron.png"
+            width={1092}
+            height={1042}
+            alt="Picture of soldering iron"
+            className={styles.solderingIron}
+          />
+        </div>
       </div>
     </>
   )
