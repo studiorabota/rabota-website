@@ -27,6 +27,15 @@ export default function Home() {
           className={styles.handWireImage}
         />
       </div>
+      <div className={styles.logoBig}>
+        <Image
+          src="/images/rabotaLogoBig.png"
+          width={808}
+          height={808}
+          alt="Logo or R from Rabota"
+          className={styles.logoBigImage}
+        />
+      </div>
       <a href='#' className={styles.cardWormBin}>
         <Image
           src="/images/wormBin.png"

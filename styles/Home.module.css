@@ -1,5 +1,5 @@
 .content {
-  background-image: radial-gradient(circle at 2px 2px, var(--color-medium-light-blue) 3px, transparent 0);
+  background-image: radial-gradient(circle at 2px 2px, var(--color-red) 3px, transparent 0);
   background-size: 40px 40px;
   margin: 86px 32px;
   margin-bottom: 0;
@@ -302,8 +302,14 @@
   }
 }
 
+.logoBig {
+  position: absolute;
+  left: 716px;
+  top: 2862px;
+}
+
 .footer {
-  background-color: var(--color-blue);
+  background-color: var(--color-red);
   color: var(--color-white);
   position: absolute;
   z-index: 9;
