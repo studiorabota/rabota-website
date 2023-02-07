@@ -182,6 +182,7 @@
   left: 30%;
   transform: translateX(-50%);
   bottom: 222px;
+  opacity: 0.5;
 }
 .smoke,
 .smoke2,
