@@ -1,6 +1,7 @@
 :root {
   --color-blue: #1F21E0;
   --color-light-blue: #E8EFFC;
+  --color-medium-light-blue: #d2e1fd;
   --color-dark-blue: #1F21BE;
   --color-black: #1B1B1B;
   --color-white: #ffffff;
@@ -26,6 +27,13 @@ body {
 
 body {
   color: var(--color-text);
+}
+
+html,
+body,
+#__next,
+main {
+  height: 100%;
 }
 
 h1 {

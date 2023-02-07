@@ -11,7 +11,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
+      <div className={styles.content}>
         <h1 className={styles.intro}><span>S</span>tudio <span>R</span>abota | Coding, prototyping, electronics, open-source hardware 🪱 and some artistic-scientific experimentation 🦠</h1>
         <nav className={styles.nav}>
           <ul>
@@ -49,7 +49,7 @@ export default function Home() {
             <span className={styles.cardDescription}>Download & Print</span>
           </div>
         </a>
-      </main>
+      </div>
     </>
   )
 }
