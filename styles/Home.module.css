@@ -1,8 +1,11 @@
 .content {
   background-image: radial-gradient(circle at 2px 2px, var(--color-medium-light-blue) 3px, transparent 0);
   background-size: 40px 40px;
-  height: 100%;
   margin: 86px 32px;
+  margin-bottom: 0;
+  height: 4300px;
+  position: relative;
+  width: calc(100vw - 64px);
 }
 
 .intro {
@@ -163,6 +166,12 @@
   line-height: 3rem;
 }
 
+.sponge {
+  position: absolute;
+  left: 0;
+  top: 2786px;
+}
+
 .soldering {
   position: absolute;
   right: 0;
@@ -291,4 +300,29 @@
     transform: translateY(-80px) scale(1.2);
     opacity: 0;
   }
+}
+
+.footer {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  position: absolute;
+  z-index: 9;
+  bottom: 0;
+  width: calc(100vw - 64px);
+  padding: 8rem;
+  min-height: 400px;
+}
+.footer h5 {
+  font-size: 5rem;
+  line-height: 7rem;
+  font-weight: 300;
+  letter-spacing: -2px;
+}
+.footer h6 {
+  font-weight: 300;
+  font-size: 3rem;
+  line-height: 4rem;
+}
+.footer h6 a {
+  text-decoration: underline;
 }
