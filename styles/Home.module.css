@@ -16,6 +16,17 @@
 .intro span {
   color: var(--title-first-character-color);
 }
+.intro .virus {
+  animation: spin 6s linear infinite;
+  position: absolute;
+  margin-left: 20px;
+}
+
+@keyframes spin { 
+  100% { 
+    transform:rotate(360deg); 
+  } 
+}
 
 .cardPrints {
   position: absolute;
@@ -47,9 +58,8 @@
 .cardPrints:hover .moistureSensorCap {
   transform: translate(30px, 30px);
 }
-.cardInfo {
+.cardPrintsInfo {
   display: flex;
-  justify-items: center;
   align-items: center;
   width: 100%;
   height: 100%;
@@ -69,7 +79,7 @@
   transition: all 0.2s;
 }
 .cardPrints:hover .cardHeader {
-  padding: 2rem;
+  transform: scale(1.2);
 }
 .cardDescription {
   background-color: var(--color-blue);
@@ -81,12 +91,42 @@
   margin-right: 5rem;
 }
 
+.cardWormBin {
+  position: absolute;
+  left: 154px;
+  top: 840px;
+}
+.cardWormBinInfo {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 400px;
+  left: 500px;
+  justify-content: center;
+  flex-direction: column;
+}
+.wormBinImage {
+  transition: all 0.2s;
+}
+.cardWormBin:hover .wormBinImage {
+  transform: scale(0.9);
+}
+.cardWormBin:hover .cardHeader {
+  transform: scale(1.2);
+}
+
+.handWire {
+  position: absolute;
+  right: 0;
+  top: 1392px;
+}
+
 .nav {
   background-color: var(--color-blue);
   min-width: 580px;
   position: absolute;
   left: 30%;
-  top: 80vh;
+  top: 1873px;
   z-index: 10;
 }
 .nav ul li {

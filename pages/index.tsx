@@ -12,7 +12,29 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.content}>
-        <h1 className={styles.intro}><span>S</span>tudio <span>R</span>abota | Coding, prototyping, electronics, open-source hardware 🪱 and some artistic-scientific experimentation 🦠</h1>
+        <h1 className={styles.intro}><span>S</span>tudio <span>R</span>abota | Coding, prototyping, electronics, open-source hardware 🪱 and some artistic-scientific experimentation <span className={styles.virus}>🦠</span></h1>
+        <div className={styles.handWire}>
+          <Image
+            src="/images/handWire.png"
+            width={785}
+            height={1202}
+            alt="Picture of hand holding a crocodile wire"
+            className={styles.handWireImage}
+          />
+        </div>
+        <a href='#' className={styles.cardWormBin}>
+          <Image
+            src="/images/wormBin.png"
+            width={847}
+            height={904}
+            alt="Picture of smart worm bin"
+            className={styles.wormBinImage}
+          />
+          <div className={styles.cardWormBinInfo}>
+            <span className={styles.cardDescription}>Step by Step</span>
+            <h3 className={styles.cardHeader}>Wormbin</h3>
+          </div>
+        </a>
         <nav className={styles.nav}>
           <ul>
             <li><a href='#'>Wiggle Bin<span>Prototype</span></a></li>
@@ -44,7 +66,7 @@ export default function Home() {
             alt="Picture of 3d printed soil moisture sensor cap"
             className={styles.moistureSensorCap}
           />
-          <div className={styles.cardInfo}>
+          <div className={styles.cardPrintsInfo}>
             <h3 className={styles.cardHeader}>3D Objects</h3>
             <span className={styles.cardDescription}>Download & Print</span>
           </div>
