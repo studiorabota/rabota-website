@@ -27,7 +27,7 @@
 
 @keyframes spin { 
   100% { 
-    transform:rotate(360deg); 
+    transform: rotate(360deg); 
   } 
 }
 
@@ -176,6 +176,7 @@
   position: absolute;
   right: 0;
   top: 2500px;
+  pointer-events: none;
 }
 .smokeWrap {
   position: absolute;
@@ -305,8 +306,12 @@
 
 .logoBig {
   position: absolute;
-  left: 716px;
+  left: 916px;
   top: 2862px;
+  animation: spin 12s linear infinite;
+}
+.logoBig:hover {
+  animation-duration: 2s;
 }
 
 .footer {
