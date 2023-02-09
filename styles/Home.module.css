@@ -1,5 +1,5 @@
 .content {
-  background-image: radial-gradient(circle at 2px 2px, var(--color-red) 3px, transparent 0);
+  background-image: radial-gradient(circle at 2px 2px, var(--color-red) 2px, transparent 0);
   background-size: 40px 40px;
   margin: 86px 32px;
   margin-bottom: 0;
@@ -309,6 +309,13 @@
   left: 916px;
   top: 2862px;
   animation: spin 12s linear infinite;
+  background-color: var(--color-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 588px;
+  height: 588px;
 }
 .logoBig:hover {
   animation-duration: 2s;

@@ -29,9 +29,9 @@ export default function Home() {
       </div>
       <div className={styles.logoBig}>
         <Image
-          src="/images/rabotaLogoBig.png"
-          width={588}
-          height={588}
+          src="/images/rabotaLogoBig.svg"
+          width={266}
+          height={315}
           alt="Logo or R from Rabota"
           className={styles.logoBigImage}
         />
