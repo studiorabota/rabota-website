@@ -7,7 +7,9 @@
   --color-white: #ffffff;
   --color-text: var(--color-black);
   --color-red: #F65657;
+  --color-light-red: #f7bebe;
   --title-first-character-color: var(--color-blue);
+  --breakpoint-tablet: 1200px;
 }
 
 * {
@@ -34,13 +36,6 @@ body,
 #__next,
 main {
   height: 100%;
-}
-
-h1 {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 5rem;
-  line-height: 7rem;
 }
 
 a {
