@@ -14,7 +14,7 @@ export default function Home() {
       <div className={styles.content}>
         <h1 className={styles.intro}><span>S</span>tudio <span>R</span>abota | Coding, prototyping, electronics, open-source hardware 🪱 and some artistic-scientific experimentation <span className={styles.virus}>🦠</span></h1>
         <div className={styles.cardPrintsContainer}>
-          <a href='#' className={styles.cardPrints}>
+          <a href='https://www.thingiverse.com/studiorabota/designs' className={styles.cardPrints}>
             <div className={styles.cardPrintsTop}>
               <Image
                 src="/images/3d_gear.png"
@@ -56,7 +56,7 @@ export default function Home() {
           </a>
         </div>
         <div className={styles.cardWormBinContainer}>
-          <a href='#' className={styles.cardWormBin}>
+          <a href='https://github.com/studiorabota/wiggle-bin' className={styles.cardWormBin}>
             <Image
               src="/images/wormBin.png"
               width={847}
@@ -75,11 +75,11 @@ export default function Home() {
         </div>
         <nav className={styles.nav}>
           <ul>
-            <li><a href='#'>Wiggle Bin<span>Prototype</span></a></li>
-            <li><a href='#'>Compost Bin <span>Electronics</span></a></li>
-            <li><a href='#'>Sensing Water <span>Data</span></a></li>
-            <li><a href='#'>3d objects <span>Electronics</span></a></li>
-            <li><a href='#'>Weather sensor <span>Data</span></a></li>
+            <li><a href='https://github.com/studiorabota/wiggle-bin'>Wiggle Bin<span>Prototype</span></a></li>
+            <li><a href='https://gitlab.com/studio.rabota/blog'>Circuit analyzer <span>Tutorial</span></a></li>
+            <li><a href='https://github.com/studiorabota/dot-matrix'>Dot Matrix <span>Electronics</span></a></li>
+            <li><a href='https://github.com/studiorabota/meteor-johnny-five-tutorial'>JS and Arduino <span>Tutorial</span></a></li>
+            <li><a href='https://gitlab.com/rabota/panda-nodes'>Node based Pandas <span>Code</span></a></li>
           </ul>
         </nav>
 
@@ -160,7 +160,7 @@ export default function Home() {
 
         <div className={styles.footer}>
           <h5>Studio Rabota</h5>
-          <h6><a href="#">Coding</a>, <a href="#">prototyping</a>, <a href="#">electronics</a>, <a href="#">open-source hardware</a></h6>
+          <h6><span>Coding</span>, <span>prototyping</span>, <span>electronics</span>, <span>open-source hardware</span></h6>
         </div>
       </div>
     </>
